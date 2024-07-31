@@ -6,6 +6,42 @@
     <description>Recent content in Tags on Blog @ sntx.dev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 31 Jul 2024 13:03:04 -0400</lastBuildDate>
     <atom:link href="https://blog.sntx.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OCI</title>
+      <link>https://blog.sntx.dev/tags/oci/</link>
+      <pubDate>Wed, 31 Jul 2024 13:03:04 -0400</pubDate>
+      <guid>https://blog.sntx.dev/tags/oci/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oracle Cloud</title>
+      <link>https://blog.sntx.dev/tags/oracle-cloud/</link>
+      <pubDate>Wed, 31 Jul 2024 13:03:04 -0400</pubDate>
+      <guid>https://blog.sntx.dev/tags/oracle-cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Server</title>
+      <link>https://blog.sntx.dev/tags/server/</link>
+      <pubDate>Wed, 31 Jul 2024 13:03:04 -0400</pubDate>
+      <guid>https://blog.sntx.dev/tags/server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SSH</title>
+      <link>https://blog.sntx.dev/tags/ssh/</link>
+      <pubDate>Wed, 31 Jul 2024 13:03:04 -0400</pubDate>
+      <guid>https://blog.sntx.dev/tags/ssh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VNC</title>
+      <link>https://blog.sntx.dev/tags/vnc/</link>
+      <pubDate>Wed, 31 Jul 2024 13:03:04 -0400</pubDate>
+      <guid>https://blog.sntx.dev/tags/vnc/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
