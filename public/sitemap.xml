@@ -2,13 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.sntx.dev/tags/ai/</loc>
+    <lastmod>2024-07-31T18:12:40-04:00</lastmod>
+  </url><url>
     <loc>https://blog.sntx.dev/</loc>
     <lastmod>2024-07-31T18:12:40-04:00</lastmod>
   </url><url>
     <loc>https://blog.sntx.dev/post/ai-blog/</loc>
     <lastmod>2024-07-31T18:12:40-04:00</lastmod>
   </url><url>
+    <loc>https://blog.sntx.dev/tags/media/</loc>
+    <lastmod>2024-07-31T18:12:40-04:00</lastmod>
+  </url><url>
+    <loc>https://blog.sntx.dev/tags/news/</loc>
+    <lastmod>2024-07-31T18:12:40-04:00</lastmod>
+  </url><url>
     <loc>https://blog.sntx.dev/post/</loc>
+    <lastmod>2024-07-31T18:12:40-04:00</lastmod>
+  </url><url>
+    <loc>https://blog.sntx.dev/tags/publication/</loc>
+    <lastmod>2024-07-31T18:12:40-04:00</lastmod>
+  </url><url>
+    <loc>https://blog.sntx.dev/tags/server/</loc>
+    <lastmod>2024-07-31T18:12:40-04:00</lastmod>
+  </url><url>
+    <loc>https://blog.sntx.dev/tags/</loc>
     <lastmod>2024-07-31T18:12:40-04:00</lastmod>
   </url><url>
     <loc>https://blog.sntx.dev/post/vnc-oracle/</loc>
@@ -20,13 +38,7 @@
     <loc>https://blog.sntx.dev/tags/oracle-cloud/</loc>
     <lastmod>2024-07-31T13:03:04-04:00</lastmod>
   </url><url>
-    <loc>https://blog.sntx.dev/tags/server/</loc>
-    <lastmod>2024-07-31T13:03:04-04:00</lastmod>
-  </url><url>
     <loc>https://blog.sntx.dev/tags/ssh/</loc>
-    <lastmod>2024-07-31T13:03:04-04:00</lastmod>
-  </url><url>
-    <loc>https://blog.sntx.dev/tags/</loc>
     <lastmod>2024-07-31T13:03:04-04:00</lastmod>
   </url><url>
     <loc>https://blog.sntx.dev/tags/vnc/</loc>
