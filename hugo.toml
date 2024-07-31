@@ -1,4 +1,4 @@
-baseURL = 'https://personal-blog-site-steel.vercel.app/'
+baseURL = 'https://blog.sntx.dev/'
 languageCode = 'en-us'
 title = 'Blog @ sntx.dev'
 theme ='tophat'
