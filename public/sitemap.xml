@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://personal-blog-pi-peach.vercel.app/</loc>
+    <loc>https://personal-blog-site-steel.vercel.app/</loc>
     <lastmod>2024-07-31T11:15:07-04:00</lastmod>
   </url><url>
-    <loc>https://personal-blog-pi-peach.vercel.app/post/my-first-post/</loc>
+    <loc>https://personal-blog-site-steel.vercel.app/post/my-first-post/</loc>
     <lastmod>2024-07-31T11:15:07-04:00</lastmod>
   </url><url>
-    <loc>https://personal-blog-pi-peach.vercel.app/post/</loc>
+    <loc>https://personal-blog-site-steel.vercel.app/post/</loc>
     <lastmod>2024-07-31T11:15:07-04:00</lastmod>
   </url><url>
-    <loc>https://personal-blog-pi-peach.vercel.app/categories/</loc>
+    <loc>https://personal-blog-site-steel.vercel.app/categories/</loc>
   </url><url>
-    <loc>https://personal-blog-pi-peach.vercel.app/tags/</loc>
+    <loc>https://personal-blog-site-steel.vercel.app/tags/</loc>
   </url>
 </urlset>
