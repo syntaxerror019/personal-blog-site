@@ -1,7 +1,7 @@
 ---
 title: "Connecting to Oracle Cloud servers with VNC"
 date: 2024-07-31T13:03:04-04:00
-draft: true
+draft: false
 excerpt: "SSH-ing is easy. But what about your GUI apps?!"
 tags: ["Oracle Cloud", "VNC", "SSH", "OCI", "Server"]
 featured: false
