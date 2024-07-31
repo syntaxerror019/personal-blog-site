@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+    <head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta content='text/html; charset=utf-8' http-equiv='content-type' />
+
+<link rel="alternate" type="application/rss+xml" title="RSS Feed for Blog @ sntx.dev" href="/index.xml" />
+
+<meta name="generator" content="Hugo 0.130.0">
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+<link href="https://blog.sntx.dev/css/styles.css" rel="stylesheet">
+
+<title>Blog @ sntx.dev</title>
+
+
+  
+
+
+
+<meta name="description" content="sntx.dev&#39;s blog!">
+<meta name="author" content="Miles Hilliard">
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Can AI write it&#39;s own Blog Posts?" />
+<meta property="og:description" content="sntx.dev&#39;s blog!" />
+<meta property="og:url" content="https://blog.sntx.dev/post/ai-blog/" />
+<meta property="og:image" content="https://blog.sntx.dev/static/open-graph.png">
+<meta property="og:author" content="Miles Hilliard">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="https://blog.sntx.dev/">
+<meta property="twitter:url" content="https://blog.sntx.dev/post/ai-blog/">
+<meta name="twitter:title" content="Can AI write it&#39;s own Blog Posts?">
+<meta name="twitter:description" content="sntx.dev&#39;s blog!">
+<meta name="twitter:image" content="https://blog.sntx.dev/static/open-graph.png">
+
+<link rel="icon" type="image/x-icon" href="https://blog.sntx.dev/static/favicon.ico">
+</head>
+    <body>
+        <div class="content">
+            <nav class="blog-navigation">
+
+  <div class="head-container">
+
+  <div class="left">
+    
+      <div class="blog-logo">
+        
+        
+
+        <a href='/' title="Blog @ sntx.dev">
+          <img src="https://blog.sntx.dev/img/logo.png" alt="Blog @ sntx.dev">
+        </a>
+
+      </div>
+    
+      <div class="blog-info">
+          <div class="blog-title">
+            <a href='/' title="Blog @ sntx.dev">
+              <h1>Blog @ sntx.dev</h1>
+            </a>
+          </div>
+    
+          <div class="blog-description">
+            <a href='/' title="Blog @ sntx.dev">
+              <h2>https://sntx.dev/</h2>
+            </a>
+          </div>
+      </div>
+
+  </div>
+
+  <div class="right">
+
+    <div class="blog-links">
+
+      <ul class="links">
+
+        <li class="item page"><a href='/' title="Home">Home</a></li>
+
+        
+
+          <li class="item page"><a href='https://sntx.dev/' title="About">About</a></li><li class="item page"><a href='https://sntx.dev/' title="Contact">Contact</a></li>
+
+        
+        
+        
+        
+          <li class="item social"><a href='https://discord.com/users/7896867932712366090' title="Discord" target="_blank">Discord</a></li><li class="item social"><a href='https://github.com/syntaxerror019' title="Github" target="_blank">Github</a></li><li class="item social"><a href='https://ko-fi.com/sntxdev' title="Support" target="_blank">Support</a></li>
+        
+        
+
+      </ul>
+
+    </div>
+
+  </div>
+</div>
+
+
+</nav>
+            
+
+<div class="single">
+
+    <article>
+
+        <div class="article-meta">
+        
+    <ul class="article-info">
+        <li class="time" style="">
+            <time class="time">31 Jul 2024</time>
+        </li>
+        <li class="reading-time" style="">
+            <span class="material-icons">timer</span>3 min read
+        </li>
+        <li class="words-count" style="">
+            <span class="material-icons">article</span>597 words
+        </li>
+    </ul>
+
+    <ul class="article-tags" style="">
+
+             
+
+    </ul>
+
+</div>
+                      
+        <div class="article-header">
+            <h1 class="article-title">Can AI write it&#39;s own Blog Posts?</h1>          
+            <h2 class="article-excerpt">It can create art, it can write code, but can it handle the media?</h2>  
+        </div>
+
+        <div class="article-content">
+            <h2 id="introduction">Introduction</h2>
+<p>Albeit, this article falls outwards of my typical writing style, which normally includes abundant code blocks and programming know-how, but I thought I would give it a try nevertheless. (omg this sounds AI written already i promise its not)</p>
+<p>The idea of AI being able to write it&rsquo;s own social media posts, more specifically instructional posts such as tutorials and guides has plagued my brain from time to time for the past year. I mean it can write your English essays and it has the ability to generate life-like, photorealistic images just based on some textual inputs. How hard could writing a simple article be?</p>
+<p>I tried a similar thing a while back, using OpenAI&rsquo;s ChatGPT API and posting it&rsquo;s responses onto instructables.com using their (un)official API. This unfortunately did not work reliably and generated some strange feedback from readers, many saying my choice of wording was &ldquo;odd.&rdquo;
+The project was abandoned (like many of my others) and I had no intentions of picking it up again until&hellip;</p>
+<h2 id="the-era-of-hugo">The Era of Hugo</h2>
+<p>After recently discovering Hugo and it&rsquo;s amazing open-source capabilities, I had another go at giving AI a media voice. With Hugo&rsquo;s easy to use command line and ChatGPT&rsquo;s ability to seamlessly respond in MarkDown, it seemed like a match made in heaven.</p>
+<p>All I had to do was write a little script that calls the LLM and then CTRL+C, CTRL+V it&rsquo;s responses into a new post. Then it was easy, I could simply (re)compile the Hugo site with the elementary <code>hugo</code> command and then use git to push new updates to the repo. Then, oh so beloved Vercel would handle the rest, making the site live to the public.</p>
+<h2 id="the-issues">The Issues</h2>
+<p>Now that AI has a voice, what will it do? Will it write about what I ask of it? Or will it generate nonsense that only confuses readers? Here was the first issue I came across; <strong>fact-checking</strong></p>
+<p>How on Earth do I verify the validity of the bot&rsquo;s tutorials? The thought of forcing my friends to follow the possibly-rubbish guides to see their outcomes crossed my mind more than twice&hellip; The wisest choice of all is to have myself fact check them all individually. When a new article is written and published by AI, it will have a banner claiming that &ldquo;This AI-written article has not yet been verified.&rdquo; This puts the reader in choice of proceeding or not. Ideally, I can have the articles checked within 1-2 business days. Afterwards, the banner will be removed and replaced by a similar one claiming that the article has been fact-checked by a human.</p>
+<p>Although the reputability of the AI is most definetely my biggest concern, another pretty important problem that quickly surfaced was hosting.
+Now this may not seem of such difficulty to most, (yes I hear you yelling &lsquo;VPS&rsquo; over there calm down) finding a <strong>free</strong> VPS provider that doesn&rsquo;t have spontaneous uptime, and has a support team that speaks English is a bit harder than you might initially think. Luckily, OCI (Oracle Cloud Infratructures) came to the rescue with their Always-Free tier that allows VMs to be run 24/7 at the cost of limited performance, which should be fine for me.</p>
+<p>Now this is definetely not all of the issues I have faced, nor will it be the last I face on this project. At the time of writing this article, I haven&rsquo;t even finished the project yet, which leaves abundant time for more issues to suface. I&rsquo;ll be sure to keep this article up-to-date on my latest failures and struggles though!</p>
+
+        </div>
+
+         <hr>
+         
+         <div class="spread-out">
+            <a style="font-size: 120%;" href="#">Back to the top! ⤴️</a>
+            <a style="font-size: 120%;" href="/">Read more articles! 🔙</a>
+            <a style="font-size: 120%;" href="https://sntx.dev/">Home page 🏠</a>
+        </div>
+         
+
+    </article>
+
+    <article>
+        
+ <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">HTML Comment Box</a> is loading comments...</div>
+ <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+ <script type="text/javascript" id="hcb">   if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24sXRfCQ2ZmeM2z6.jSTA9W0"+"&opts=16798&num=10&ts=1722460054685");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})();   </script>
+
+    </article>
+    
+
+</div>
+
+
+            <footer class="footer">    
+    <p>&copy; 2024 | !syntaxerror - <a href="https://sntx.dev/">https://sntx.dev/</a> | <a href="https://github.com/sergiobarriel/tophat-theme" target="_blank">Top Hat</a></p>
+</footer>
+        </div>
+    </body>
+
+    
+
+</html>

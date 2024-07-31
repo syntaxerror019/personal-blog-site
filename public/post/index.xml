@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Blog @ sntx.dev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 Jul 2024 13:03:04 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 31 Jul 2024 18:12:40 -0400</lastBuildDate>
     <atom:link href="https://blog.sntx.dev/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Can AI write it&#39;s own Blog Posts?</title>
+      <link>https://blog.sntx.dev/post/ai-blog/</link>
+      <pubDate>Wed, 31 Jul 2024 18:12:40 -0400</pubDate>
+      <guid>https://blog.sntx.dev/post/ai-blog/</guid>
+      <description>Introduction Albeit, this article falls outwards of my typical writing style, which normally includes abundant code blocks and programming know-how, but I thought I would give it a try nevertheless. (omg this sounds AI written already i promise its not)&#xA;The idea of AI being able to write it&amp;rsquo;s own social media posts, more specifically instructional posts such as tutorials and guides has plagued my brain from time to time for the past year.</description>
+    </item>
     <item>
       <title>Connecting to Oracle Cloud servers with VNC</title>
       <link>https://blog.sntx.dev/post/vnc-oracle/</link>
