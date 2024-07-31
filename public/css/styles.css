@@ -6,6 +6,7 @@
 html {
   background-color: #f7f7f7;
 }
+
 html body {
   font-family: "Bitter", serif;
 }
@@ -86,7 +87,10 @@ nav.blog-navigation .right ul.links {
   list-style-type: none;
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
-  padding: 0px;
+  padding: 15px;
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #b5b5b5;
 }
 nav.blog-navigation .right ul.links li.item {
   display: inline-block;
@@ -113,9 +117,27 @@ nav.blog-navigation .right ul.links li.item:last-child:after {
   padding: 0px;
 }
 
-@media screen and (max-width: 850px) {
+.head-container {
+  display: flex;
+  flex-direction: row; /* Stack children vertically */
+  gap:50px;
+}
+
+/* /* DEPRECATED (?) 
+
+@media screen and (max-width: 770px) {
+  nav.blog-navigation .left {
+    align-content: center;
+  }
+  nav.blog-navigation .right ul.links {
+    list-style-type: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    padding: 15px;
+  }
   nav.blog-navigation .right div.blog-links ul {
-    margin-right: 15px;
+    text-align: center;
+   
   }
   nav.blog-navigation .right div.blog-links ul li {
     display: inherit !important;
@@ -128,6 +150,9 @@ nav.blog-navigation .right ul.links li.item:last-child:after {
     display: none;
   }
 }
+
+*/
+
 article, .single article {
   border: 1px solid #b5b5b5;
   border-radius: 0px;
@@ -247,7 +272,7 @@ article div.article-content em, .single article div.article-content em {
   margin-right: 3px;
 }
 article div.article-content img, .single article div.article-content img {
-  width: 100%;
+  width: 60%;
   border: 1px solid #b5b5b5;
 }
 article div.article-content blockquote, .single article div.article-content blockquote {
@@ -394,6 +419,21 @@ div.pagination ul li a span {
 }
 div.pagination ul li.newer {
   margin-left: 15px;
+}
+
+.spread-out {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Optional: Aligns items vertically in the center */
+  padding: 10px 10px; /* Optional: padding around the container */
+}
+.spread-out a {
+  text-decoration: none;
+  color: #c33dd3;
+}
+.spread-out a:hover {
+  background-color: rgba(195, 61, 211, 0.2);
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=styles.css.map */

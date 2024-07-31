@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://personal-blog-site-steel.vercel.app/</loc>
+    <loc>https://blog.sntx.dev/</loc>
+    <lastmod>2024-07-31T13:03:04-04:00</lastmod>
+  </url><url>
+    <loc>https://blog.sntx.dev/post/</loc>
+    <lastmod>2024-07-31T13:03:04-04:00</lastmod>
+  </url><url>
+    <loc>https://blog.sntx.dev/post/my-first-post/</loc>
     <lastmod>2024-07-31T11:15:07-04:00</lastmod>
   </url><url>
-    <loc>https://personal-blog-site-steel.vercel.app/post/my-first-post/</loc>
-    <lastmod>2024-07-31T11:15:07-04:00</lastmod>
+    <loc>https://blog.sntx.dev/categories/</loc>
   </url><url>
-    <loc>https://personal-blog-site-steel.vercel.app/post/</loc>
-    <lastmod>2024-07-31T11:15:07-04:00</lastmod>
-  </url><url>
-    <loc>https://personal-blog-site-steel.vercel.app/categories/</loc>
-  </url><url>
-    <loc>https://personal-blog-site-steel.vercel.app/tags/</loc>
+    <loc>https://blog.sntx.dev/tags/</loc>
   </url>
 </urlset>

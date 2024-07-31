@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Blog @ sntx.dev</title>
-    <link>https://personal-blog-site-steel.vercel.app/post/</link>
+    <link>https://blog.sntx.dev/post/</link>
     <description>Recent content in Posts on Blog @ sntx.dev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 31 Jul 2024 11:15:07 -0400</lastBuildDate>
-    <atom:link href="https://personal-blog-site-steel.vercel.app/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.sntx.dev/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My first Hugo post using TopHat theme</title>
-      <link>https://personal-blog-site-steel.vercel.app/post/my-first-post/</link>
+      <link>https://blog.sntx.dev/post/my-first-post/</link>
       <pubDate>Wed, 31 Jul 2024 11:15:07 -0400</pubDate>
-      <guid>https://personal-blog-site-steel.vercel.app/post/my-first-post/</guid>
+      <guid>https://blog.sntx.dev/post/my-first-post/</guid>
       <description>What is this? This is my first Hugo site, and the theme is powered by the amazingly clean and compact TopHat theme!&#xA;What can it do? Well, because this entire site was written in MarkDown, a very easy to use &amp;ldquo;programming language&amp;rdquo; changes can be made very easily! MarkDown supports the HTML basics, such as bold text, italicized text, headers, underlined text, etc. so I will attempt to use them in the section below!</description>
     </item>
   </channel>
