@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on Blog @ sntx.dev</title>
-    <link>http://localhost:41885/tags/news/</link>
+    <link>https://blog.sntx.dev/tags/news/</link>
     <description>Recent content in News on Blog @ sntx.dev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 31 Jul 2024 18:12:40 -0400</lastBuildDate>
-    <atom:link href="http://localhost:41885/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.sntx.dev/tags/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Can AI write it&#39;s own Blog Posts?</title>
-      <link>http://localhost:41885/post/ai-blog/</link>
+      <link>https://blog.sntx.dev/post/ai-blog/</link>
       <pubDate>Wed, 31 Jul 2024 18:12:40 -0400</pubDate>
-      <guid>http://localhost:41885/post/ai-blog/</guid>
+      <guid>https://blog.sntx.dev/post/ai-blog/</guid>
       <description>Introduction Albeit, this article falls outwards of my typical writing style, which normally includes abundant code blocks and programming know-how, but I thought I would give it a try nevertheless. (omg this sounds AI written already i promise its not)&#xA;The idea of AI being able to write it&amp;rsquo;s own social media posts, more specifically instructional posts such as tutorials and guides has plagued my brain from time to time for the past year.</description>
     </item>
   </channel>
