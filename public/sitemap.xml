@@ -2,54 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://blog.sntx.dev/</loc>
     <lastmod>2024-08-07T10:35:09-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://blog.sntx.dev/post/</loc>
     <lastmod>2024-08-07T10:35:09-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/test-hugo/</loc>
+    <loc>https://blog.sntx.dev/post/test-hugo/</loc>
     <lastmod>2024-08-07T10:35:09-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ai/</loc>
+    <loc>https://blog.sntx.dev/tags/ai/</loc>
     <lastmod>2024-07-31T18:12:40-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/ai-blog/</loc>
+    <loc>https://blog.sntx.dev/post/ai-blog/</loc>
     <lastmod>2024-07-31T18:12:40-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/media/</loc>
+    <loc>https://blog.sntx.dev/tags/media/</loc>
     <lastmod>2024-07-31T18:12:40-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/news/</loc>
+    <loc>https://blog.sntx.dev/tags/news/</loc>
     <lastmod>2024-07-31T18:12:40-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/publication/</loc>
+    <loc>https://blog.sntx.dev/tags/publication/</loc>
     <lastmod>2024-07-31T18:12:40-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/server/</loc>
+    <loc>https://blog.sntx.dev/tags/server/</loc>
     <lastmod>2024-07-31T18:12:40-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://blog.sntx.dev/tags/</loc>
     <lastmod>2024-07-31T18:12:40-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/vnc-oracle/</loc>
+    <loc>https://blog.sntx.dev/post/vnc-oracle/</loc>
     <lastmod>2024-07-31T13:03:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/oci/</loc>
+    <loc>https://blog.sntx.dev/tags/oci/</loc>
     <lastmod>2024-07-31T13:03:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/oracle-cloud/</loc>
+    <loc>https://blog.sntx.dev/tags/oracle-cloud/</loc>
     <lastmod>2024-07-31T13:03:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ssh/</loc>
+    <loc>https://blog.sntx.dev/tags/ssh/</loc>
     <lastmod>2024-07-31T13:03:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/vnc/</loc>
+    <loc>https://blog.sntx.dev/tags/vnc/</loc>
     <lastmod>2024-07-31T13:03:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/my-first-post/</loc>
+    <loc>https://blog.sntx.dev/post/my-first-post/</loc>
     <lastmod>2024-07-31T11:15:07-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://blog.sntx.dev/categories/</loc>
   </url>
 </urlset>
