@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta content='text/html; charset=utf-8' http-equiv='content-type' />
+
+<link rel="alternate" type="application/rss+xml" title="RSS Feed for Blog @ sntx.dev" href="/index.xml" />
+
+<meta name="google-site-verification" content="Uv1zMq9c4DfjOtDt8OCKiiTMZoVNrUSJfEuzc_80uZI" /> 
+
+<meta name="generator" content="Hugo 0.134.1">
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+<link href="http://localhost:1313/css/styles.css" rel="stylesheet">
+
+<title>Blog @ sntx.dev</title>
+
+
+
+<meta name="description" content="sntx.dev&#39;s blog!">
+<meta name="author" content="Miles Hilliard">
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Using OpenCV on RPI in 2024" />
+<meta property="og:description" content="sntx.dev&#39;s blog!" />
+<meta property="og:url" content="http://localhost:1313/post/opencv-on-rpi-2024/" />
+<meta property="og:image" content="http://localhost:1313/static/open-graph.png">
+<meta property="og:author" content="Miles Hilliard">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="http://localhost:1313/">
+<meta property="twitter:url" content="http://localhost:1313/post/opencv-on-rpi-2024/">
+<meta name="twitter:title" content="Using OpenCV on RPI in 2024">
+<meta name="twitter:description" content="sntx.dev&#39;s blog!">
+<meta name="twitter:image" content="http://localhost:1313/static/open-graph.png">
+
+<link rel="icon" type="image/x-icon" href="http://localhost:1313/static/favicon.ico">
+</head>
+    <body>
+        <div class="content">
+            <nav class="blog-navigation">
+
+  <div class="head-container">
+
+  <div class="left">
+    
+      <div class="blog-logo">
+        
+        
+
+        <a href='/' title="Blog @ sntx.dev">
+          <img src="http://localhost:1313/img/logo.png" alt="Blog @ sntx.dev">
+        </a>
+
+      </div>
+    
+      <div class="blog-info">
+          <div class="blog-title">
+            <a href='/' title="Blog @ sntx.dev">
+              <h1>Blog @ sntx.dev</h1>
+            </a>
+          </div>
+    
+          <div class="blog-description">
+            <a href='/' title="Blog @ sntx.dev">
+              <h2>https://sntx.dev/</h2>
+            </a>
+          </div>
+      </div>
+
+  </div>
+
+  <div class="right">
+
+    <div class="blog-links">
+
+      <ul class="links">
+
+        <li class="item page"><a href='/' title="Home">Home</a></li>
+
+        
+
+          <li class="item page"><a href='https://sntx.dev/' title="About">About</a></li><li class="item page"><a href='https://sntx.dev/' title="Contact">Contact</a></li>
+
+        
+        
+        
+        
+          <li class="item social"><a href='https://discord.com/users/7896867932712366090' title="Discord" target="_blank">Discord</a></li><li class="item social"><a href='https://github.com/syntaxerror019' title="Github" target="_blank">Github</a></li><li class="item social"><a href='https://ko-fi.com/sntxdev' title="Support" target="_blank">Support</a></li>
+        
+        
+
+      </ul>
+
+    </div>
+
+  </div>
+</div>
+
+
+</nav>
+            
+
+<div class="single">
+
+    <article>
+
+        <div class="article-meta">
+        
+    <ul class="article-info">
+        <li class="time" style="">
+            <time class="time">31 Jul 2024</time>
+        </li>
+        <li class="reading-time" style="">
+            <span class="material-icons">timer</span>3 min read
+        </li>
+        <li class="words-count" style="">
+            <span class="material-icons">article</span>515 words
+        </li>
+    </ul>
+
+    <ul class="article-tags" style="">
+
+        
+            
+                <li>
+                    <a href='/tags/rpi'>#RPI</a>
+                </li>
+            
+                <li>
+                    <a href='/tags/cv2'>#CV2</a>
+                </li>
+            
+                <li>
+                    <a href='/tags/opencv'>#opencv</a>
+                </li>
+            
+                <li>
+                    <a href='/tags/tutorial'>#tutorial</a>
+                </li>
+            
+             
+
+    </ul>
+
+</div>
+                      
+        <div class="article-header">
+            <h1 class="article-title">Using OpenCV on RPI in 2024</h1>          
+            <h2 class="article-excerpt">Who&#39;s right? A working way to install cv2 on RPI in 2024</h2>  
+        </div>
+
+        <div class="article-content">
+            <hr>
+<h2 id="introduction">Introduction</h2>
+<p>Between all the various tutorials online, there is no straight way to installing OpenCV on a RPI&hellip;</p>
+<p>Issue&rsquo;s I have encountered personally include but are not limited to the following:</p>
+<ul>
+<li>Building from source issues</li>
+<li>Various rare errors</li>
+<li>Garbage tutorials</li>
+</ul>
+<p>So in this simple guide, I have documented my installation of OpenCV on my Raspberry Pi, Model 3 B+</p>
+<p>Other models should be quite similar.</p>
+<hr>
+<h2 id="requirements">Requirements</h2>
+<p>For this project, I used a Raspberry Pi 3 B+ running Ubuntu Server 20.04</p>
+<p>I&rsquo;ve stopped using the Raspbian image on my pi for numerous reasons, mainly due to the smaller community base and lack of support for software when compared to Ubuntu. I also use Ubuntu daily, and I am very familiar with it.</p>
+<p>You will also need an internet connection, a way to connect to your RPI (be it SSH, USB, VNC, etc.), and an SD card with some reasonable levels of (free) storage</p>
+<hr>
+<h2 id="getting-started">Getting Started</h2>
+<p>To begin, you should always start with the classic</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get update
+</span></span><span style="display:flex;"><span>sudo apt-get upgrade
+</span></span></code></pre></div><p>and once everything is up to date, you can install the necessary packages for OpenCV:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install build-essential cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev python3-dev
+</span></span></code></pre></div><hr>
+<h2 id="instlling-pip-package-manager">Instlling pip Package Manager</h2>
+<p>If you have not already done so, you can install pip the package manager for python using this command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install python3-pip
+</span></span></code></pre></div><p>and once that finishes, you can use it to install Numpy:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip3 install numpy
+</span></span></code></pre></div><hr>
+<h2 id="getting-opencv">Getting OpenCV</h2>
+<p>Almost done! Now you can just install OpenCV. Before you start trying to install though, it is important you install the correct version.<br>
+If your RPI is running Ubuntu Server (or similar) and has no GUI (e.g. boots into a terminal screen with no GUI) you will want to install a different version than if your RPI has a GUI.</p>
+<p>If you don&rsquo;t have a GUI run the following command. This will omit GUI functionality.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip3 install opencv-python-headless
+</span></span></code></pre></div><p>If you have a GUI on your RPI, you can try installing the normal OpenCV version.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip3 install opencv-python
+</span></span></code></pre></div><p><strong>Note:</strong> If you have a GUI and the GUI installation doesn&rsquo;t work (or importing cv2 in python throws an error) it may be worth trying the headless version. Be sure you use pip3 to uninstall the existing version before trying to install a different one!</p>
+<hr>
+<h2 id="importing-and-testing">Importing and Testing</h2>
+<p>If the installation (which may take a while depending on hardware and internet speed) completed without error, now is the time to test everything!</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python3
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>&gt;&gt;&gt; import cv2
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt; print<span style="color:#f92672">(</span>cv2.__version__<span style="color:#f92672">)</span>
+</span></span></code></pre></div><p>if the basic <code>import cv2</code> throws an error, read the note on the above step and try again.<br>
+If you still can&rsquo;t figure it out, leave a comment!</p>
+<hr>
+<h2 id="wrapping-up">Wrapping Up</h2>
+<p>You have now installed OpenCV on your RPI running Ubuntu (or similar OS) congratulations! 🎉</p>
+<p>If you have any questions or comments, please let me know in the comment section below and I&rsquo;ll be happy to help you out if you provide your situation. If you would prefer to email me (more direct and reliable contact) shoot me an email at <code>sntx@sntx.dev</code> and I&rsquo;ll get back to you shortly!</p>
+<p>Thank you!</p>
+
+        </div>
+
+         <hr>
+         
+         <div class="spread-out">
+            <a style="font-size: 120%;" href="#">Back to the top! ⤴️</a>
+            <a style="font-size: 120%;" href="/">Read more articles! 🔙</a>
+            <a style="font-size: 120%;" href="https://sntx.dev/">Home page 🏠</a>
+        </div>
+         
+
+    </article>
+    <article>
+        
+ <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">HTML Comment Box</a> is loading comments...</div>
+ <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+ <script type="text/javascript" id="hcb">   if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24sXRfCQ2ZmeM2z6.jSTA9W0"+"&opts=16798&num=10&ts=1722460054685");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})();   </script>
+
+    </article>
+    
+
+</div>
+
+
+            <footer class="footer">    
+    <p style="font-size: 90%;">&copy; 2024 | !syntaxerror - <a href="https://sntx.dev/">https://sntx.dev/</a> | <a href="https://github.com/sergiobarriel/tophat-theme" target="_blank">Top Hat</a></p>
+</footer>
+        </div>
+    </body>
+
+    
+
+</html>

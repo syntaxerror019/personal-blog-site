@@ -2,32 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Blog @ sntx.dev</title>
-    <link>https://blog.sntx.dev/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on Blog @ sntx.dev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 31 Jul 2024 18:12:40 -0400</lastBuildDate>
-    <atom:link href="https://blog.sntx.dev/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Can AI write it&#39;s own Blog Posts?</title>
-      <link>https://blog.sntx.dev/post/ai-blog/</link>
+      <link>http://localhost:1313/post/ai-blog/</link>
       <pubDate>Wed, 31 Jul 2024 18:12:40 -0400</pubDate>
-      <guid>https://blog.sntx.dev/post/ai-blog/</guid>
-      <description>Introduction Albeit, this article falls outwards of my typical writing style, which normally includes abundant code blocks and programming know-how, but I thought I would give it a try nevertheless. (omg this sounds AI written already i promise its not)&#xA;The idea of AI being able to write it&amp;rsquo;s own social media posts, more specifically instructional posts such as tutorials and guides has plagued my brain from time to time for the past year.</description>
+      <guid>http://localhost:1313/post/ai-blog/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Albeit, this article falls outwards of my typical writing style, which normally includes abundant code blocks and programming know-how, but I thought I would give it a try nevertheless. (omg this sounds AI written already i promise its not)&lt;/p&gt;&#xA;&lt;p&gt;The idea of AI being able to write it&amp;rsquo;s own social media posts, more specifically instructional posts such as tutorials and guides has plagued my brain from time to time for the past year. I mean it can write your English essays and it has the ability to generate life-like, photorealistic images just based on some textual inputs. How hard could writing a simple article be?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Connecting to Oracle Cloud servers with VNC</title>
-      <link>https://blog.sntx.dev/post/vnc-oracle/</link>
+      <link>http://localhost:1313/post/vnc-oracle/</link>
       <pubDate>Wed, 31 Jul 2024 13:03:04 -0400</pubDate>
-      <guid>https://blog.sntx.dev/post/vnc-oracle/</guid>
-      <description>What is Oracle Cloud? Oracle Cloud is a cloud computing service offered by Oracle Corporation. It provides a range of cloud services, including:&#xA;Infrastructure as a Service (IaaS): This includes virtual machines, storage, and networking resources. Platform as a Service (PaaS): Offers tools for developing, managing, and deploying applications, including databases, application development, and integration services. Software as a Service (SaaS): Provides ready-to-use software applications hosted in the cloud, such as enterprise resource planning (ERP), human capital management (HCM), and customer relationship management (CRM) applications.</description>
+      <guid>http://localhost:1313/post/vnc-oracle/</guid>
+      <description>&lt;h2 id=&#34;what-is-oracle-cloud&#34;&gt;What is Oracle Cloud?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Oracle Cloud&lt;/strong&gt; is a cloud computing service offered by Oracle Corporation. It provides a range of cloud services, including:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Infrastructure as a Service (IaaS)&lt;/strong&gt;: This includes virtual machines, storage, and networking resources.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Platform as a Service (PaaS)&lt;/strong&gt;: Offers tools for developing, managing, and deploying applications, including databases, application development, and integration services.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Software as a Service (SaaS)&lt;/strong&gt;: Provides ready-to-use software applications hosted in the cloud, such as enterprise resource planning (ERP), human capital management (HCM), and customer relationship management (CRM) applications.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Oracle Cloud is known for its strong emphasis on database solutions, high-performance computing, and enterprise applications. It aims to help businesses reduce IT costs, scale their operations, and innovate faster by leveraging cloud technologies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Using OpenCV on RPI in 2024</title>
+      <link>http://localhost:1313/post/opencv-on-rpi-2024/</link>
+      <pubDate>Wed, 31 Jul 2024 13:03:04 -0400</pubDate>
+      <guid>http://localhost:1313/post/opencv-on-rpi-2024/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Between all the various tutorials online, there is no straight way to installing OpenCV on a RPI&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;Issue&amp;rsquo;s I have encountered personally include but are not limited to the following:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Building from source issues&lt;/li&gt;&#xA;&lt;li&gt;Various rare errors&lt;/li&gt;&#xA;&lt;li&gt;Garbage tutorials&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;So in this simple guide, I have documented my installation of OpenCV on my Raspberry Pi, Model 3 B+&#xA;Other models should be quite similar.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My first Hugo post using TopHat theme</title>
-      <link>https://blog.sntx.dev/post/my-first-post/</link>
+      <link>http://localhost:1313/post/my-first-post/</link>
       <pubDate>Wed, 31 Jul 2024 11:15:07 -0400</pubDate>
-      <guid>https://blog.sntx.dev/post/my-first-post/</guid>
-      <description>What is this? This is my first Hugo site, and the theme is powered by the amazingly clean and compact TopHat theme!&#xA;What can it do? Well, because this entire site was written in MarkDown, a very easy to use &amp;ldquo;programming language&amp;rdquo; changes can be made very easily! MarkDown supports the HTML basics, such as bold text, italicized text, headers, underlined text, etc. so I will attempt to use them in the section below!</description>
+      <guid>http://localhost:1313/post/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;what-is-this&#34;&gt;What is this?&lt;/h2&gt;&#xA;&lt;p&gt;This is my first Hugo site, and the theme is powered by the amazingly clean and compact TopHat theme!&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-can-it-do&#34;&gt;What can it do?&lt;/h2&gt;&#xA;&lt;p&gt;Well, because this entire site was written in MarkDown, a very easy to use &amp;ldquo;programming language&amp;rdquo; changes can be made very easily!&#xA;MarkDown supports the HTML basics, such as bold text, italicized text, headers, underlined text, etc. so I will attempt to use them in the section below!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
