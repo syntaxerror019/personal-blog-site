@@ -1,6 +1,6 @@
 ---
 title: "Can AI write it's own Blog Posts?"
-date: 2024-07-31T18:12:40-04:00
+date: 2024-08-03T18:12:40-04:00
 draft: false
 tags: ["AI", "News", "Server", "Media", "Publication"]
 excerpt: "It can create art, it can write code, but can it handle the media?"

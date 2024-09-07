@@ -1,6 +1,6 @@
 ---
 title: "Using OpenCV on RPI in 2024"
-date: 2024-07-31T13:03:04-04:00
+date: 2024-09-07T13:03:04-04:00
 draft: false
 excerpt: "Who's right? A working way to install cv2 on RPI in 2024"
 tags: ["RPI", "CV2", "opencv", "tutorial"]
